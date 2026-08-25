@@ -5,8 +5,8 @@ import Cart from './components/Cart'
 export default function Router() {
   return (
     <Routes>
-      <Route path="/home" element={<Home />} />
-      <Route path="/cart" element={<Cart />} />
+      <Route path="/" element={<Home />}/>
+      <Route path="/cart" element={<Cart />}/>
     </Routes>
   )
 }

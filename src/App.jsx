@@ -8,7 +8,6 @@ export default function App() {
       <Link to="/">Home</Link>
       <Link to="/cart">Cart</Link>
     </nav>
-      <Router /> 
-    </>
+    <Router />    </>
   );
 }
