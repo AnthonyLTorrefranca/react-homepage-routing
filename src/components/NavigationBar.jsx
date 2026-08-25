@@ -12,8 +12,8 @@ export default function NavigationBar() {
             </a>
         </div>
         <div className="mr-10">
-            <Link className="mr-10 px-2 py-2 hover:bg-gray-400" to="/">Home</Link>
-            <Link className="mr-10 px-2 py-2 hover:bg-gray-400" to="/cart">🛒</Link>
+            <Link className="mx-5 px-5 py-2 rounded hover:bg-gray-300">Home</Link>
+            <Link className="mx-5 px-5 py-2 rounded hover:bg-gray-300">🛒 Cart</Link>
         </div>
     </nav>
     </>
