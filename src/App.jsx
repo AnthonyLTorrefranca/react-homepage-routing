@@ -1,13 +1,14 @@
 import { Link } from 'react-router-dom'
-import Router from './Router'
 
-export default function App() {
+
+const App = () => {
   return (
     <>
-    <nav>
-      <Link to="/">Home</Link>
-      <Link to="/cart">Cart</Link>
-    </nav>
-    <Router />    </>
-  );
+      <nav className="flex items-center align-middle justify-center h-10 bg-gray-500">
+        <h1>APP</h1>
+      </nav>
+    </>
+  )
 }
+
+export default App
