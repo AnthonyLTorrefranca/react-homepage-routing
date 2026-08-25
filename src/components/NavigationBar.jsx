@@ -5,7 +5,7 @@ const STZYLINK = "https://www.facebook.com/steezyapparelco"
 export default function NavigationBar() {
   return (
     <>
-    <nav className="flex items-center align-middle justify-around h-10 bg-gray-500">
+    <nav className="flex items-center align-middle justify-around h-15 bg-gray-500">
         <div>
             <a href={STZYLINK} target="blank">
                 <img src={STZY} className="h-10 hover:cursor-pointer"></img>
