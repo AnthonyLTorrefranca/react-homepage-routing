@@ -1,13 +1,9 @@
-import NavigationBar from './components/NavigationBar.jsx'
-import Router from './Router'
+import NavigationBar from './components/NavigationBar'
 
-const App = () => {
+export default function App() {
   return (
     <>
       <NavigationBar />
-      <Router />
     </>
   )
 }
-
-export default App

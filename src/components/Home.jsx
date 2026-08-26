@@ -2,7 +2,7 @@ const HEROSEC = '/src/assets/hero.jpg'
 
 export default function Home() {
   return (
-    <div className="heroSection flex relative">
+    <div>
       <img src={HEROSEC} alt="Hero section" className="w-screen z-0"></img>
       <div className="absolute top-50 right-100">
         <p className="text-9xl">Home</p>
@@ -10,5 +10,5 @@ export default function Home() {
         <p className="text-2xl">Choose products below.</p>
       </div>
     </div>
-  );
+  )
 }
