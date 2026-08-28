@@ -5,12 +5,10 @@ export default function NavigationBar() {
   return (
     <div className="flex items-center justify-around h-15 bg-black">
       <div>
-        <a 
-          href="https://www.facebook.com/steezyapparelco" 
+        <a href="https://www.facebook.com/steezyapparelco" 
           target="_blank"
           rel='noopener noreferrer'>
-          <img 
-            src={STZYLOGO} 
+          <img src={STZYLOGO} 
             className="h-15"
             decoding="async"
             alt="" />
