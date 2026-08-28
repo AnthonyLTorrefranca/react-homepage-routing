@@ -17,8 +17,8 @@ export default function NavigationBar() {
         </a>
       </div>
       <div>
-        <Link className="mx-5 p-3 text-white  cursor-pointer hover:underline hover:bg-gray-800" to="/">Home</Link>
-        <Link className="mx-5 p-3 text-white  cursor-pointer hover:underline hover:bg-gray-800" to="/cart">Cart </Link>
+        <Link className="text-white m-3 text-xl p-3 hover:underline hover:bg-gray-700" to="/">Home</Link>
+        <Link className="text-white m-3 text-xl p-3 hover:underline hover:bg-gray-700" to="/cart">Cart</Link>
       </div>
     </div>
   )
