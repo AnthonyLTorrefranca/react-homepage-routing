@@ -1,0 +1,6 @@
+// import image1 from './b.jpg'
+// import image2 from './b1.jpg'
+// import image3 from './b2.jpg'
+// import image4 from './w.jpg'
+// import image5 from './w1.jpg'
+// import image6 from './w2.jpg'

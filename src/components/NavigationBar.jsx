@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
 import STZYLOGO from '../assets/stzy.png'
 
 export default function NavigationBar() {
@@ -11,8 +11,8 @@ export default function NavigationBar() {
           alt="" />
       </div>
       <div>
-        <Link className="text-white m-3 text-xl p-3 hover:underline hover:bg-gray-700" to="/">Home</Link>
-        <Link className="text-white m-3 text-xl p-3 hover:underline hover:bg-gray-700" to="/cart">Cart</Link>
+        <Link className="text-white m-3 text-xl p-3 hover:underline hover:bg-gray-700"  to="/">Home</Link>
+        <Link className="text-white m-3 text-xl p-3 hover:underline hover:bg-gray-700"  to="/cart">Cart</Link>
       </div>
     </div>
   )
